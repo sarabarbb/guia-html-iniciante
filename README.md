@@ -23,3 +23,21 @@ Apesar disso, eu ainda lembrava de algumas coisas das outras vezes em que estude
 Também consultei a W3Schools para entender a forma correta de utilizar algumas tags, e foi bem fácil compreender.
 
 Ainda faltam algumas tags que foram solicitadas para este projeto, então vou me empenhar para terminar tudo amanhã. Até aqui, está sendo bem interessante perceber que algumas coisas que pareciam difíceis começam a fazer sentido quando coloco a mão no código.
+
+Dia 14/08: fim e entrega do projeto
+📝 Atualizações Recentes do Projeto
+Hoje concluí etapas importantes na organização do repositório e na finalização da estrutura do meu blog sobre HTML:
+
+🔀 Integração de Recursos: Realizei com sucesso a mesclagem (merge) da branch teste-fonte-html na branch principal (main), garantindo que os novos ajustes de fonte e estilo fossem incorporados.
+
+🚀 Publicação e Sincronização: Envei todo o histórico atualizado para o repositório remoto no GitHub via git push origin main.
+
+🧹 Limpeza do Repositório: Removi a branch de testes remota do GitHub para manter a árvore de commits e as branches limpas e organizadas.
+
+📄 Finalização do Conteúdo do Blog:
+
+Implementei a tag <footer> para organizar o rodapé do blog.
+
+Adicionei a declaração formal de direitos autorais usando a entidade HTML &copy; para o símbolo de copyright.
+
+Revisei a estrutura geral da página para garantir uma boa navegação para iniciantes.
