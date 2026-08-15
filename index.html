@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+  * { font-family: sans-serif; }
+</style>
     <title>Big Bang Blog</title>
 </head>
 <body>
@@ -10,14 +13,14 @@
     <h1>💥Big Bang Blog</h1>
     <p>Entendendo os primeiros passos no código (com base no que eu tô aprendendo) 💡</p>
     <hr>
-    <h2 class="titulos-cor-padrao" style="color: rgb(102, 36, 5);">Indice</h2>
+    <h2>Indice</h2>
     <ul>
-        <li style="font-size: 20px; color: brown;"><a href="#o-big">O big</a></li>
-        <li style="font-size: 20px; color: brown;"><a href="#o-bang">O bang</a></li>
-        <li style="font-size: 20px; color: brown;"><a href="#tag">O que é uma tag?</a></li>
-        <li style="font-size: 20px; color: brown;"><a href="#esqueleto-html">O esqueleto do arquivo html</a></li>
-        <li style="font-size: 20px; color: brown;"><a href="#ref">Referências</a></li>
-        <li style="font-size: 20px; color: brown;"><a href="#links">Links úteis para quem está iniciando</a></li>
+        <li><a href="#o-big">O big</a></li>
+        <li><a href="#o-bang">O bang</a></li>
+        <li><a href="#tag">O que é uma tag?</a></li>
+        <li><a href="#esqueleto-html">O esqueleto do arquivo html</a></li>
+        <li><a href="#ref">Referências</a></li>
+        <li><a href="#links">YOUTUBE: Vídeos úteis para quem está iniciando</a></li>
     </ul>
     <h2>A Primeira Explosão de Código: Meus Primeiros Passos no <i>HTML</i></h2>
 
@@ -70,19 +73,14 @@ No começo pode parecer estranho, mas, conforme você pratica, começa a percebe
 <br>
 Vou fazer uma demonstração de como algumas tags se comportam e para quê são usadas:
     <ul>
-        <li>&lt;strong&gt; = Deixa o &lt;strong&gt;texto em negrito&lt;/strong&gt; e indica ao navegador que aquela palavra ou trecho tem grande importância para o conteúdo da página</li>
-        <li>&lt;mark&gt; = A tag &lt;mark&gt; destaca ou marca parte do texto como se você estivesse passando um marca-texto.</li>
-        <li>&lt;strong&gt; = Deixa o &lt;strong&gt;texto em negrito&lt;/strong&gt; e indica ao navegador que aquela palavra ou trecho tem grande importância para o conteúdo da página</li>
-        <li>&lt;strong&gt; = Deixa o &lt;strong&gt;texto em negrito&lt;/strong&gt; e indica ao navegador que aquela palavra ou trecho tem grande importância para o conteúdo da página</li>
-        <li>&lt;strong&gt; = Deixa o &lt;strong&gt;texto em negrito&lt;/strong&gt; e indica ao navegador que aquela palavra ou trecho tem grande importância para o conteúdo da página</li>
-        <li>&lt;strong&gt; = Deixa o &lt;strong&gt;texto em negrito&lt;/strong&gt; e indica ao navegador que aquela palavra ou trecho tem grande importância para o conteúdo da página</li>
-        <li>&lt;strong&gt; = Deixa o &lt;strong&gt;texto em negrito&lt;/strong&gt; e indica ao navegador que aquela palavra ou trecho tem grande importância para o conteúdo da página</li>
-<abbr>
-<small>
-<sub>
-<sup>
-<font>
-<del>
+        <li><b>&lt;strong&gt;</b> = Deixa o &lt;strong&gt;<strong> em negrito</strong>&lt;/strong&gt; e indica ao navegador que aquela palavra ou trecho tem grande importância para o conteúdo da página.</li>
+        <li><b>&lt;mark&gt;</b> = &lt;mark&gt;<mark>Destaca ou marca parte do texto</mark>&lt;/mark&gt; como se você estivesse passando um marca-texto.</li>
+        <li><b>&lt;abbr&gt;</b> = Essa tag indica que o texto é uma abreviação/sigla, como <code></code>&lt;abbr&gt;<abbr title="HyperText Markup Language">HTML</abbr>&lt;/abbr&gt;</code>, e nela podemos até atribuir um "title" para descrever o significado ao colocar o mouse sobre ela.</li>
+        <li><b>&lt;small&gt;</b> = Deixa o texto em menor tamanho e indica ao navegador que &lt;small&gt;<small>aquela palavra ou trecho tem menor importância</small>&lt;/small&gt; para o conteúdo da página.</li>
+        <li><b>&lt;sub&gt;</b> = Deixa o &lt;sub&gt;<sub>texto em subscrito</sub>&lt;/sub&gt; e é mais utilizado para fórmulas químicas ou indíces, por exemplo: h<sub>2</sub>O</li>
+        <li><b>&lt;sup&gt;</b> = Deixa o &lt;sup&gt;<sup>texto em sobrescrito</sup>&lt;/sup&gt; e é mais utilizado para fórmulas matemáticas; expoente, potências e algumas referências, por exemplo: x<sup>2</sup> ou 1<sup><u>a</u></sup></li>
+        <li><b>&lt;font&gt;</b> = Essa era usada para alterar características do texto, como tamanho, cor e tipo de fonte diretamento no html, porém, no html5 ela se tornou obsoleta, pois, essa estilização deve ser feita com CSS.</li>
+        <li><b>&lt;del&gt;</b> = Deixa o &lt;del&gt;<del>texto excluído</del>&lt;/del&gt; e é mais utilizado para indicar que um trecho de texto foi removido ou substituído.</li>
     </ul>
 <h3 id="esqueleto-html"><u>O esqueleto do arquivo html</u></h3>
 Eu pedi para o Gemini criar uma imagem para você visulizar melhor a estrutura do <strong>HTML</strong>.
@@ -154,14 +152,15 @@ Além disso, entendi como funciona a relação entre o Git e o GitHub e aprendi 
 <p>
     <ol>
         <li> DIO. <b>Curso de HTML</b>, 2026.</li>
-        <li>SILVA. M. S., Fundamentos de HTML5 e CSS3. Novatec</li>
+        <li>SILVA. M. S., <b>Fundamentos de HTML5 e CSS3</b>. Novatec, 2015 </li>
+        <li> W3C. <b>HTML5</b>, 2026.</li>
     </ol>
 </p>
 
-    <h3 id="links"><u>Links úteis para quem está iniciando</u></h3>
+    <h3 id="links"><u>YOUTUBE: Vídeos úteis para quem está iniciando</u></h3>
     <ol>
-        <li> Steve Jobs apresenta primeiro iPhone legendado (2007): <a href:"https://www.youtube.com/watch?v=9ou608QQRq8">Clique para assistir!</a> </li>
-        <li> Curso completo de HTML - seu PRIMEIRO SITE DO ZERO para iniciar em PROGRAMAÇÃO! <a href:"https://www.youtube.com/watch?v=Fhy-5CtVkiM&t=640s">Clique para assistir!</a> </li>
+        <li> Steve Jobs apresenta primeiro iPhone legendado (2007): <a href="https://www.youtube.com/watch?v=9ou608QQRq8">Clique para assistir!</a> </li>
+        <li> Curso completo de HTML - seu PRIMEIRO SITE DO ZERO para iniciar em PROGRAMAÇÃO! <a href="https://www.youtube.com/watch?v=Fhy-5CtVkiM&t=640s">Clique para assistir!</a> </li>
     </ol>
 <p>
 <hr>
